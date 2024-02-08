@@ -1,0 +1,35 @@
+.footer {
+  padding-top: 40px;
+}
+
+.footer-logo {
+  margin-bottom: 32px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.footer-item__link {
+  color: #c8c7d8;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Space Mono';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-soc__container {
+  display: flex;
+  gap: 32px;
+}
+.footer__link-icon {
+  margin-left: 8px;
+}
