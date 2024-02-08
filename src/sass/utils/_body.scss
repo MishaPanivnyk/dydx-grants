@@ -1,0 +1,41 @@
+// Custom font
+@font-face {
+  font-family: 'Circular Std';
+  src: url('/src/font/CircularStd-Bold.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('/src/font/CircularStd-Book.woff') format('woff');
+  font-weight: 450;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('/src/font/CircularStd-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+body {
+  background-color: #1c1c28;
+  color: #fff;
+  font-family: 'Space Mono', sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.btn {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Circular Std';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.154px;
+  border-radius: 7.29px;
+  background: #393953;
+  padding: 10px 16px;
+  border: none;
+}
