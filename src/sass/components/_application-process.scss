@@ -11,8 +11,9 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
   letter-spacing: -0.408px;
+  position: relative;
 }
 .application-desc {
   color: var(--Text-Icon-Secondary, #c8c7d8);
@@ -92,4 +93,11 @@
   left: -144px;
   height: 90px;
   z-index: 9999;
+}
+.application-title__icon {
+  width: 80.5px;
+  height: 8px;
+  position: absolute;
+  top: 30;
+  right: 54;
 }
