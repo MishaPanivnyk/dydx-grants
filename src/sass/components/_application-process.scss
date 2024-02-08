@@ -1,0 +1,95 @@
+.application {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.application-title {
+  margin-bottom: 16px;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.408px;
+}
+.application-desc {
+  color: var(--Text-Icon-Secondary, #c8c7d8);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+  margin-bottom: 37px;
+}
+.application-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.application-item {
+  padding: 24px;
+  display: flex;
+  gap: 16px;
+  border-radius: 16px;
+  //   border: 1px solid #fff;
+  flex-direction: column;
+  background: #393953;
+}
+.application-item-1 {
+  transform: rotate(-1deg);
+  position: relative;
+}
+.application-item-2 {
+  transform: rotate(3deg);
+}
+.application-item-3 {
+  transform: rotate(-2deg);
+}
+.application-item__numb {
+  font-family: 'Nanum Pen Script';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.application-item__title {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.408px;
+}
+.application-item__desc {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px;
+  letter-spacing: -0.084px;
+  max-width: 224px;
+  padding-bottom: 48px;
+}
+.application-item__icon {
+  position: absolute;
+  top: 269;
+  height: 90px;
+  left: -75px;
+  z-index: 9999;
+}
+.application-item__icon-deg {
+  position: absolute;
+  bottom: 319px;
+  left: -144px;
+  height: 90px;
+  z-index: 9999;
+}
