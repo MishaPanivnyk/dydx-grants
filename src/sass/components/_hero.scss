@@ -1,0 +1,57 @@
+.hero {
+  padding-top: 56px;
+  padding-bottom: 41px;
+}
+.hero-title {
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.84px;
+}
+.hero-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+.hero-btn {
+  width: 100%;
+}
+
+.hero-btn__blue {
+  margin-top: 16px;
+  background: #6966ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-list {
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.hero-item__numb {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.hero-item__desc {
+  color: #c8c7d8;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.hero__btn-icon {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+}
