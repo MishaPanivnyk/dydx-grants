@@ -1,0 +1,108 @@
+.whats-new {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.whats-new__title {
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.408px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.whats-new__title-icon {
+  position: absolute;
+  top: -18px;
+  right: 71px;
+}
+.whats-new__desc {
+  color: #c8c7d8;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+  margin-bottom: 24px;
+  max-width: 272px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whats-new__link {
+  color: #6966ff;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+  margin-bottom: 40px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whats-new__item-img {
+  margin-bottom: 25px;
+  width: 100%;
+}
+.whats-new__list {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.whats-new__item {
+  //   padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  border: none;
+  background: #393953;
+}
+.whats-new__item-container {
+  padding: 24px;
+  padding-top: 0px;
+}
+.whats-new__item-predesc {
+  color: #c8c7d8;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Space Mono';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.whats-new__item-title {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.34px;
+  margin-bottom: 80px;
+}
+.whats-new__item-date {
+  color: #c8c7d8;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Circular Std';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px;
+  letter-spacing: -0.084px;
+}
