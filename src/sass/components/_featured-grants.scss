@@ -1,9 +1,13 @@
 .featured-grants {
   padding-top: 40px;
   padding-bottom: 40px;
+  position: relative;
 }
 
 .featured-grants__icon {
+  position: absolute;
+  top: -20;
+  left: 55%;
 }
 .featured-grants__title {
   text-align: center;
