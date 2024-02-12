@@ -1,0 +1,2 @@
+document.querySelectorAll(".toggleButton").forEach((function(e,l){var t=e.querySelector(".asked__btn-icon"),n=e.querySelector(".icon-hidden"),y=e.querySelector(".asked-item__hidden-text");e.addEventListener("click",(function(){y.style.display="none"===y.style.display||""===y.style.display?"block":"none","none"===y.style.display||""===y.style.display?(t.style.display="block",n.style.display="none"):(t.style.display="none",n.style.display="block")}))}));
+//# sourceMappingURL=index.f3f42a03.js.map
