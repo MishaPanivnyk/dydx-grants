@@ -1,0 +1,119 @@
+.featured-grants {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.featured-grants__icon {
+}
+.featured-grants__title {
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.408px;
+  margin-bottom: 16px;
+}
+.featured-grants__desc {
+  color: #c8c7d8;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 272px;
+}
+
+.featured-grants__link {
+  color: #6966ff;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySwiper {
+}
+.featured-grants__item {
+  padding: 24px;
+  border-radius: 16px;
+  border: none;
+  background: #393953;
+  max-width: 208px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+}
+.featured-grants__item-predesc {
+  color: #a59eba;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.featured-grants__item-title {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Circular Std';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.34px;
+}
+.featured-grants__item-amount {
+  color: #a59eba;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.featured-grants__item-desc {
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Circular Std';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px;
+  letter-spacing: -0.084px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.featured-grants__item-avatar-container {
+  display: flex;
+  position: relative;
+  margin-top: auto;
+}
+.featured-grants__item-avatar-img {
+  position: absolute;
+  top: 0;
+  left: 25;
+}
+.featured-grants__item-avatar-img-2 {
+  position: absolute;
+  top: 0;
+  left: 50;
+  z-index: 999;
+}
